@@ -56,8 +56,7 @@ function UserPage() {
 
           <div className="col-lg-6 col-md-12 col-sm-12" id="textContainer">
             <p className="systemName">
-              GYM EQUIPMENT <br />
-              MANAGEMENT AND <br />
+              GYM EQUIPMENT MANAGEMENT AND <br />
               BORROWING SYSTEM
             </p>
             <p className="infoText">
