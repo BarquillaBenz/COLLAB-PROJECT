@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 // IMPORTS COMPONENTS HERE
 import buksuLogo from "../assets/buksuLogo.jpg";
 // CSS
@@ -20,6 +21,9 @@ function LoginPage() {
             Find the equipment you need right here <br /> Borrow wisely, return
             timely.
           </p>
+          <Link to="/userDashboard" className="btn">
+            Click me
+          </Link>
         </div>
       </div>
     </div>
