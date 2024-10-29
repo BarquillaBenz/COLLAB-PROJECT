@@ -29,7 +29,7 @@ function UserPage() {
           <div
             className="collapse navbar-collapse" /*id="navbarSupportedContent"*/
           >
-            <form className="d-flex mb-3">
+            <form className="d-flex mb-2">
               <input
                 className="form-control me-2"
                 type="search"
@@ -54,7 +54,7 @@ function UserPage() {
 
           {/* SYSTEM NAME,INFO AND BUTTON */}
 
-          <div className="col-lg-4 col-md-12 col-sm-12" id="textContainer">
+          <div className="col-lg-6 col-md-12 col-sm-12" id="textContainer">
             <p className="systemName">
               GYM EQUIPMENT <br />
               MANAGEMENT AND <br />
