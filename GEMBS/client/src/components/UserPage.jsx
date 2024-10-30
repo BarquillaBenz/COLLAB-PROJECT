@@ -7,13 +7,13 @@ import welcomeIMG from "../assets/v1.jpg";
 function UserPage() {
   return (
     <div>
+      {/*NAVBAR */}
       <nav className="navbar navbar-expand-lg bg-white">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             <img className="mb-2" src={buksuLogo} alt="" />
             <span className="name">GEMBS</span>
           </a>
-
           <button
             className="navbar-toggler mb-4"
             type="button"
@@ -25,7 +25,6 @@ function UserPage() {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-
           <div
             className="collapse navbar-collapse" /*id="navbarSupportedContent"*/
           >
@@ -44,6 +43,7 @@ function UserPage() {
           </div>
         </div>
       </nav>
+      {/* END */}
 
       <div className="container-fluid">
         <div className="row">
@@ -51,9 +51,9 @@ function UserPage() {
           <div className="col-lg-6 col-md-12 col-sm-12" id="picContainer">
             <img className="welcomeIMG" src={welcomeIMG} alt="" />
           </div>
+          {/* END */}
 
           {/* SYSTEM NAME,INFO AND BUTTON */}
-
           <div className="col-lg-6 col-md-12 col-sm-12" id="textContainer">
             <p className="systemName">
               GYM EQUIPMENT MANAGEMENT AND <br />
@@ -70,6 +70,7 @@ function UserPage() {
               See more
             </button>
           </div>
+          {/* END */}
         </div>
       </div>
     </div>

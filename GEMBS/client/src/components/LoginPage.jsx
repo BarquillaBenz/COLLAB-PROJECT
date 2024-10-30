@@ -9,11 +9,11 @@ function LoginPage() {
   return (
     <div className="container">
       <div className="row">
-
         {/* LOGO CONTAINER */}
         <div className="col-lg-5 col-md-5 col-sm-12" id="logoContainer">
           <img id="logo" src={buksuLogo} alt="" />
         </div>
+        {/* END */}
 
         {/* LOGIN AND TEXT CONTAINER */}
         <div className="col-lg-7 col-md-7 col-sm-12" id="titleContainer">
@@ -26,6 +26,7 @@ function LoginPage() {
             Click me
           </Link>
         </div>
+        {/* END */}
       </div>
     </div>
   );
