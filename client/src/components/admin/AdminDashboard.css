@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+#adminNav {
+    height: 100vh;
+    background: #12203A;
+}
+
+.buksuLogo {
+    width: 30%;
+
+}
+
+.adminIcon {
+    text-align: center;
+    font-weight: normal;
+    color: white;
+    font-size: 7rem;
+}
+
+.btn {
+    color: red;
+
+    text-decoration: none;
+}
+
+.adminMenu {
+    margin-top: 2rem;
+    margin-left: 3rem;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    color: white;
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+
+}
+
+.dashboard h5 {
+    margin-top: .4rem;
+    margin-left: .2rem;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.inventory {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+.inventory h5 {
+    margin-top: .4rem;
+    margin-left: .2rem;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.borrows {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+.borrows h5 {
+    margin-top: .4rem;
+    margin-left: .2rem;
+    font-size: 1rem;
+    font-weight: normal;
+
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+.profile h5 {
+    margin-top: .5rem;
+    margin-left: .2rem;
+    font-size: 1rem;
+    font-weight: normal;
+
+}
+
+.signout {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15rem;
+    font-size: 2rem;
+}
+
+.signout h5 {
+    margin-top: .2rem;
+    margin-left: .2rem;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+
+.welcomeTxt {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+}
+
+span {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-left: 0rem;
+}
+
+.line {
+    background: #12203A;
+    font-size: 0rem;
+    height: .5rem;
+    margin-top: 1.5rem;
+    margin-left: 3rem;
+    width: 10rem;
+}
+
+
+
+.dashboardPage {
+    margin-left: 3rem;
+}
+
+.dashboardPage h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+#pending {
+    background: #12203A;
+    color: #FFD966;
+    font-family: 'Poppins', sans-serif;
+    border-radius: .5rem;
+    font-size: 4rem;
+    margin-right: 3rem;
+    height: 15vh;
+}
+
+#approved {
+    background: #12203A;
+    color: #B6E2A1;
+    font-family: 'Poppins', sans-serif;
+    border-radius: .5rem;
+    font-size: 4rem;
+    margin-right: 3rem;
+    height: 15vh;
+
+}
+
+#declined {
+    background: #12203A;
+    color: #C84361;
+    font-family: 'Poppins', sans-serif;
+    border-radius: .5rem;
+    font-size: 4rem;
+    height: 15vh;
+}
+
+#pending h5 {
+    font-size: 1rem;
+    margin-left: 8rem;
+    font-weight: normal;
+    color: white;
+    text-transform: uppercase;
+}
+
+#pending h3 {
+    margin-left: 12rem;
+    margin-top: -5rem;
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+}
+
+#approved h5 {
+    font-size: 1rem;
+    margin-left: 12rem;
+    font-weight: normal;
+    color: white;
+    text-transform: uppercase;
+}
+
+#approved h3 {
+    margin-left: 13rem;
+    margin-top: -5rem;
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+}
+
+#declined h5 {
+    font-size: 1rem;
+    margin-left: 12rem;
+    font-weight: normal;
+    color: white;
+    text-transform: uppercase;
+}
+
+#declined h3 {
+    margin-left: 12rem;
+    margin-top: -5rem;
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+}
+
+.tableHeader h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    margin-left: -.5rem;
+    margin-top: 1rem;
+}
+
+.recentBorrows {
+    margin-left: -1.5rem;
+}
